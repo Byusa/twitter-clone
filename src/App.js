@@ -1,17 +1,17 @@
 import React from "react"
 import './App.css';
 import Sidebar from "./Sidebar"
+import Feed from './Feed'
 
 function App() {
   return (
     // BEM convention
-    <div className="App">
-      <h1>Hey</h1>
+    <div className="app">
+      {/* sidebar*/}
       <Sidebar />
 
-      {/* sidebar*/}
-
       {/* Feed  */}
+      <Feed />
 
       {/* Widgets */}
 

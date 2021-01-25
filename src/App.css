@@ -2,3 +2,15 @@ body {
   --twitter-color: #50b7b5;
   --twitter-background: #e6ecf0;
 }
+
+.app {
+  /* this makes them stand close to each other*/
+  display: flex;
+  /* making it have the height of 100 view height */
+  height: 100vh;
+  max-width: 1300px;
+  /*Leaves some spaces for the whole app*/
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
