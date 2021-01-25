@@ -7,6 +7,7 @@ function App() {
     // BEM convention
     <div className="App">
       <h1>Hey</h1>
+      <Sidebar />
 
       {/* sidebar*/}
 
