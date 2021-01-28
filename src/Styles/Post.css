@@ -30,22 +30,23 @@
     color: var(--twitter-color)
 }
 
-.post__headerDescription{
+
+.post__headerDescription {
+    margin-bottom: 10px;
     font-size: 15px;
-    margin-bottom: 5px;
-}
+  }
 
 
 .post__body > img {
     border-radius: 20px;
-    width: 100%;
-    size: 30px
+    /* width: 100%;
+    size: 30px */
 }
 
 .post__footer{
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 
