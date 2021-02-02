@@ -1,8 +1,8 @@
-import React from "react"
-import './App.css';
-import Sidebar from "./Sidebar"
-import Feed from './Feed'
-import Widgets from './Widgets'
+import React from "react";
+import "./App.css";
+import Sidebar from "./screens/Home/Sidebar";
+import Feed from "./screens/Home/Feed";
+import Widgets from "./screens/Home/Widgets";
 
 function App() {
   return (
